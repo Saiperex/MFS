@@ -1,0 +1,104 @@
+.inicio
+{
+    width: 100%;
+    height: 100vh;
+    background-image: url("../recursos/img_static/bg1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.inicio_contenido
+{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .8);
+    display: flex;
+}
+.contIni
+{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.contIni object
+{
+    width: 60%;
+}
+.contIni:nth-child(2)
+{
+    align-items: flex-start;
+    color: #fff;
+}
+.contIni h1
+{
+    font-size: 7vh;
+    width: 90%;
+    font-family: 'Anton', sans-serif;
+    font-weight: 200;
+}
+.contIni h2
+{
+    font-size: 3vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.ini_ws
+{
+    border: solid 1px #000;
+    padding: 1vh;
+    font-size: 1.5rem;
+    transition:background-color 500ms ease-in-out,color 500ms ease-in-out ;
+}
+.ini_ws i
+{
+    margin-right: 5px;
+}
+.ini_ws:hover
+{
+    background-color: #ff8103;
+    color: #fff;
+}
+.ini_cont
+{
+    background-color: transparent;
+    color: #fff;
+    margin-top: 2vh;
+    border: solid 1px #fff;
+    padding: 1vh;
+    font-size: 1.5rem;
+    transition:background-color 500ms ease-in-out;
+}
+.ini_cont:hover
+{
+    background-color: #000;
+}
+@media screen and (max-width:500px) 
+{
+    .inicio_contenido
+    {
+        flex-wrap: wrap;
+    }
+    .contIni
+    {
+        width: 100%;
+        height: 50%;
+    }
+    .contIni:nth-child(2)
+    {
+        padding-left: 5vw;
+    }
+    .contIni h1
+    {
+        font-size: 6vh;
+    }
+    .contIni h2
+    {
+        font-size: 2vh;
+    }
+    .ini_ws, .ini_cont
+    {
+        font-size: 1rem;
+    }
+}
