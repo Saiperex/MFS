@@ -9,7 +9,7 @@ header
     display: flex;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(0deg, rgba(71, 71, 71, 0.534) 50%, #000 100%);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.1) 50%, #000 100%);
 }
 .cabecera_centrar
 {

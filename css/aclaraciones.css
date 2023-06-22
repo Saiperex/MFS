@@ -1,0 +1,24 @@
+.aclaraciones
+{
+    width: 100%;
+    height: 100vh;
+    background-image: url("../recursos/img_static/bbg1.jpg");
+    background-size: cover;
+    background-position: center;
+    transition:background-image 500ms ease-in-out ;
+}
+.bgAclaraciones
+{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 146, 3, 0.5);
+    backdrop-filter: blur(10px);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: ;
+}
+.aclaracion
+{
+
+}
