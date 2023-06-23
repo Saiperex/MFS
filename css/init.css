@@ -7,3 +7,10 @@
     list-style: none;
     position: relative;
 }
+footer
+{
+    background-color: #ff8103;
+    color: #fff;
+    font-family: 'Anton', sans-serif;
+    text-align: center;
+}
