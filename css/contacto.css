@@ -92,3 +92,22 @@
     background-color: #ff8103;
     color: #fff;
 }
+@media screen and (max-width:500px) 
+{
+    .ly
+    {
+        width: 100%;
+    }
+    .contact_ly
+    {
+        width: 95%;
+    }
+    .ly form
+    {
+        width: 100%;
+    }
+    .ly textarea
+    {
+        width: 90%;
+    }
+}
