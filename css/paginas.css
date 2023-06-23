@@ -79,10 +79,25 @@
     width: 90%;
     margin: 5vh 0;
     display: flex;
+    align-items: center;
     justify-content: space-around;
     flex-wrap: wrap;
     color: #fff;
     font-family: 'Poppins', sans-serif;
+}
+.btn_prop
+{
+    padding:1vh 1.5vh;
+}
+.list_prop
+{
+    width: 100%;
+    min-height: 600px;
+    background-color: #ff8103;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 }
 @media screen and (max-width:500px) 
 {
@@ -90,5 +105,9 @@
     {
         flex-direction: column;
         align-items: flex-start;
+    }
+    .btn_prop
+    {
+        margin: 10px 0;
     }
 }
