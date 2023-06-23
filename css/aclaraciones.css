@@ -1,14 +1,13 @@
-.aclaraciones
-{
+.aclaraciones {
     width: 100%;
     height: 100vh;
     background-image: url("../recursos/img_static/bbg1.jpg");
     background-size: cover;
     background-position: center;
-    transition:background-image 500ms ease-in-out ;
+    transition: background-image 500ms ease-in-out;
 }
-.bgAclaraciones
-{
+
+.bgAclaraciones {
     width: 100%;
     height: 100%;
     background-color: rgba(255, 146, 3, 0.5);
@@ -16,9 +15,54 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    flex-wrap: ;
+    flex-wrap: wrap;
 }
-.aclaracion
+.bgAclaraciones h2
 {
-
+    margin-top: 5vh;
+    width: 100%;
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+    font-size: 8vh;
+    color: #fff;
+}
+.bgAclaraciones legend
+{
+    width: 100%;
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+    font-size: 3vh;
+}
+.aclaracion 
+{
+    width: 350px;
+    height: 500px;
+    border: solid 1px #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+}
+.aclaracion i
+{
+    font-size: 5vh;
+}
+.aclaracion legend
+{
+    font-family: 'Anton', sans-serif;
+}
+.aclaracion p
+{
+    width: 90%;
+    font-family: 'Poppins', sans-serif;
+}
+@media screen and (max-width:500px)  
+{
+    .aclaraciones
+    {
+        height: 230vh;
+    }    
 }
