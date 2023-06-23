@@ -22,6 +22,7 @@
     <link rel="stylesheet" href="css/unicos.css">
     <link rel="stylesheet" href="css/aclaraciones.css">
     <link rel="stylesheet" href="css/contacto.css">
+    <link rel="stylesheet" href="css/slider.css">
     <!--META-->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -32,9 +33,9 @@
     <header>
         <div class="cabecera_centrar">
             <button class="menu_button">
-                <div class="line"></div>
-                <div class="line"></div>
-                <div class="line"></div>
+                <div class="line luno"></div>
+                <div class="line ldos"></div>
+                <div class="line ltres"></div>
             </button>
             <nav class="menu_cabecera">
                 <li class="menu_item">INICIO</li>
@@ -46,6 +47,15 @@
             </nav>
         </div>
     </header>
+    <nav class="slider">
+        <img src="recursos/img_static/UltimateLogo.png" alt="">
+        <li class="sliderItem">inicio</li>
+        <li class="sliderItem">propiedades</li>
+        <li class="sliderItem">agentes</li>
+        <li class="sliderItem">nosotros</li>
+        <li class="sliderItem">CAPA G-O</li>
+        <li class="sliderItem">FaQ</li>
+    </nav>
     <main class="principal">
         <section class="inicio">
             <div class="inicio_contenido">
@@ -169,6 +179,7 @@
             </div>
         </section>
     </main>
+    <script src="js/slider.js"></script>
     <script src="js/vanilla-tilt.js"></script>
     <script>
         VanillaTilt.init(document.querySelectorAll(".aclaracion"), {
