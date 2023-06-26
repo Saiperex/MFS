@@ -160,6 +160,65 @@
     margin-top: 2vh;
 }
 /**/
+.facs
+{
+    width: 100%;
+    color: #000;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.pregunta
+{
+    width: 45%;
+    height: 40vh;
+    padding: 10%;
+}
+.pregunta h3
+{
+    font-family: 'Anton', sans-serif;
+}
+.pregunta p
+{
+    font-family: 'Poppins', sans-serif;
+    color: #ff8103;
+    font-weight: 600;
+}
+/**/
+.capas
+{
+    background-color: #ff8103;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.capas h2
+{
+    text-align: center;
+    padding: 5% 0;
+    font-family: 'Anton', sans-serif;
+    font-size: 7vh;
+    color: #fefefe;
+
+}
+.capas img
+{
+    width: 50%;
+}
+.capacitaciones
+{
+    width: 95%;
+    min-height: 500px;
+    border-radius: 15px;
+    border: solid 1px #000;
+    margin: 5vh 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fefefe;
+}
+/**/
 @media screen and (max-width:500px) 
 {
     #propertySearchForm
