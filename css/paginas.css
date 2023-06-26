@@ -1,6 +1,7 @@
 .principal
 {
     width: 100%;
+    background-color: #fefefe;
 }
 .banner
 {
@@ -99,6 +100,52 @@
     align-items: center;
     justify-content: center;
 }
+/*nosotros*/
+.sobre
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+.sobre h2, .sobre p
+{
+    width: 50%;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    padding: 0 2vw;
+}
+.sobre h2
+{
+    font-family: 'Anton', sans-serif;
+    font-size: 10vh;
+}
+.sobre p
+{
+    font-family: 'Poppins', sans-serif;
+    font-size: 3vh;
+}
+.valores
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card_valores
+{
+    width: 300px;
+    margin: 5vw;
+}
+.card_valores h2
+{
+    font-family: 'Anton', sans-serif;
+}
+.card_valores p
+{
+    font-family: 'Poppins', sans-serif;
+    margin-top: 2vh;
+}
+/**/
 @media screen and (max-width:500px) 
 {
     #propertySearchForm
@@ -109,5 +156,16 @@
     .btn_prop
     {
         margin: 10px 0;
+    }
+    /**/
+    .sobre h2
+    {
+        font-size: 7vh;
+    }
+    .sobre h2, .sobre p
+    {
+        width: 100%;
+        height: 70vh;
+        padding: 5vw;
     }
 }
