@@ -241,4 +241,8 @@
         height: 70vh;
         padding: 5vw;
     }
+    .pregunta
+    {
+        width: 90%;
+    }
 }
